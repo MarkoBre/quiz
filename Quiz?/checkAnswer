@@ -1,0 +1,4 @@
+<?php
+$quiz = new Quiz;
+$quiz->fetchData();
+$quiz->

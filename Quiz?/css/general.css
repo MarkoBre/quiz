@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap'); /* Header font */
+
+#usernameError, #emailError, #passwordError {
+    position: absolute;
+    width: 100%;
+    margin: 0 120px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+body, html {
+    height: 100%;
+  }
+
+#year::placeholder {
+    /* Change the placeholder text for the year input field */
+    font-size: 13px;
+}
+
+#day::placeholder {
+    /* Change the placeholder text for the year input field */
+    font-size: 15px;
+}
+
+/* Style the container */
+.dob-container {
+    display: flex; /* Display the form fields in a row */
+    align-items: center; /* Center the fields vertically */
+    justify-content: space-between; /* Add space between the fields */
+    width: 100%;
+}
+
+/* Style the form fields */
+#day {
+    width: 80%; /* Set the width of each field */
+    padding: 3px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+#year {
+    width: 115%; /* Set the width of each field */
+    padding: 3px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+/* Style the select field */
+.dob-container select {
+    width: 200%;
+    padding: 2px;
+    margin: 10px 3px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+/* Style the label */
+.dob-container label {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 2px;
+}
+
+div.create-account {
+    width: 350px;
+    display: flex;
+    margin-top: 25px;
+    color: rgb(202, 194, 194)
+
+}
+
+div.create-account > a {
+    margin-left: 10px;
+    font-weight: bold;
+    color: lime;
+}
+
+h1.sign-in {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 90px;
+}
+
+h2.sign-in {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Submit button styles */
+.submit {
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    width: 38%; /* Make the button take up the full width of its container */
+    background-color: #4CAF50; /* Make the button green */
+    color: white; /* Make the button text white */
+    padding: 11px; /* Add some padding for spacing */
+    margin: 50px auto 0px; /* Add a margin between the button and the form group */
+    border: none; /* Remove the default border */
+    border-radius: 7px; /* Add some rounded corners */
+    cursor: pointer; /* Change the cursor to a hand when hovering over the button */
+    display: block;
+}
+
+/* Form container styles */
+.form-container {
+    margin: 0 auto; /* Center the container on the page */
+    padding: 40px; /* Add some padding for spacing */
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.7); /* Change the background color */
+    box-shadow: 0 0 10px #000;
+    width: 350px; /* Width of the form container */
+    position: relative;
+}
+
+.form-container:before {
+    background-image: url("/img/bg.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+    --webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 15px; /* Add a margin between form groups */
+    text-align: right;
+}
+
+.form-group > a {
+    color: aqua;
+    font-weight: bold;
+}
+
+/* Label styles */
+.form-label {
+    text-align: left;
+    font-weight: bold; /* Make the label text bold */
+    display: block; /* Display the label as a block element */
+    color: #fff;
+}
+
+/* Input styles */
+.form-input {
+    width: 100%; /* Make the inputs take up the full width of their container */
+    padding: 12px 20px; /* Add some padding for spacing */
+    margin: 8px 0; /* Add a margin between the input and label */
+    box-sizing: border-box; /* Include padding and border in the input's total size */
+    border: 3px solid rgb(226, 226, 226); /* Add a light gray border */
+    border-radius: 8px; /* Add some rounded corners */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1.vuk {
+    font-size: 55px;
+    color: #fff;
+    font-style: italic;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+main > form > h2 {
+    font-size: 30px;
+    color: #e0e0e0;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-weight: 900;
+}
+
+main > form > input {
+    margin-left: 45vw;
+}
+
+header.vuk {
+    background-color: #121415;
+    text-align: center;
+}
+
+li.vuk {
+    display: inline-block;
+}
+
+a.vuk {
+    display: block;
+    border-radius: 8px;
+    padding: 20px 30px 15px;
+    color: #e0e0e0;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a:hover.vuk {
+    background-color: rgb(211, 211, 211);
+    color: #000000;
+}
+
+::placeholder {
+    color: hotpink;
+    opacity: 0.7;
+}
